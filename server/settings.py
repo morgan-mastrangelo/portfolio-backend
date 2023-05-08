@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-r!m$$u#3nbp9zz_n7l-i(75u*&d!d)5w7d&_+lbu9o_u%rwq$7
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'portfolio-morgan-mastrangelo.vercel.app'
+    'portfolio-morgan-mastrangelo.vercel.app',
+    'portfolio-ke3mxmg4f-morgan-mastrangelo.vercel.app',
+    'portfolio-ke3mxmg4f-morgan-mastrangelo.vercel.app',
+    'portfolio-git-master-morgan-mastrangelo.vercel.app'
 ]
 
 
