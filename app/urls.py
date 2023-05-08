@@ -1,6 +1,6 @@
-from django.urls import include, path
-from . import views
+from django.urls import path, include
 from rest_framework import routers
+from . import views
 
 router = routers.DefaultRouter()
 router.register('comments', views.CommentViewSet)

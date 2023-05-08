@@ -1,8 +1,8 @@
-from django.db import models
+from djongo import models
 
-class CommentModel(models.Model):
-    name = models.CharField(max_length=100)
+class Comment(models.Model):
+    name = models.CharField(max_length=128)
     email = models.EmailField()
     comment = models.TextField()
     read = models.BooleanField(default=False)
-    date = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True)

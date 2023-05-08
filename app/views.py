@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import CommentModel
+from .models import Comment
 from .serializers import CommentSerializer
 
 class CommentViewSet(viewsets.ModelViewSet):
-    queryset = CommentModel.objects.all().order_by('-date')
+    queryset = Comment.objects.all().order_by('-created_at')
     serializer_class = CommentSerializer
