@@ -27,8 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'portfolio-morgan-mastrangelo.vercel.app',
-    'portfolio-ke3mxmg4f-morgan-mastrangelo.vercel.app',
-    'portfolio-ke3mxmg4f-morgan-mastrangelo.vercel.app',
+    'portfolio-gamma-orpin-94.vercel.app',
     'portfolio-git-master-morgan-mastrangelo.vercel.app'
 ]
 
