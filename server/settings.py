@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure--a(&-12#__cd#61!o01-3bzp7=22wb%t&9)6+@hfwr^o8e(@p4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['portfolio-backend-fawn-delta.vercel.app']
+ALLOWED_HOSTS = [
+    'portfolio-backend-fawn-delta.vercel.app',
+    'portfolio-morgan-mastrangelo.vercel.app'
+]
 
 
 # Application definition
